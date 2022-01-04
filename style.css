@@ -6,8 +6,12 @@ body{
 
 /* ==== Top Banner Scetion-Starts ==== */
 
-.top-banner{
+section{
   display: flex;
+  margin-bottom: 150px;
+ 
+}
+.top-banner{
   background-image: url(./images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -19,6 +23,9 @@ padding: 5%;
 .half-width h1{
   font-size: 50px;
 }
+.half-width h2{
+  font-size: 40px;
+}
 .half-width h3{
   font-weight: 900;
 }
@@ -27,7 +34,7 @@ padding: 5%;
 }
 
 .half-width img{
-  width: 90%;
+  width: 95%;
 }
 .Hire-Btn{
   text-decoration: none;
@@ -38,3 +45,14 @@ padding: 5%;
   border-radius:5px;
 }
      /* ==== Top Banner Scetion-Ends ==== */
+
+     /* ==== Dream Scetion Starts ==== */
+    .Drame-big{
+      background-image: url(./images/dream-bg.png);
+      background-repeat: no-repeat; 
+      background-position:right 78%;
+    }
+
+
+     /* ==== Dream Scetion Starts ==== */
+

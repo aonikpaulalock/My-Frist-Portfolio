@@ -6,8 +6,12 @@ body{
 
 /* ==== Top Banner Scetion-Starts ==== */
 
-section{
+.Flex-area{
   display: flex;
+}
+
+section{
+  
   margin-bottom: 150px;
  
 }
@@ -47,12 +51,64 @@ padding: 5%;
      /* ==== Top Banner Scetion-Ends ==== */
 
      /* ==== Dream Scetion Starts ==== */
-    .Drame-big{
+    
+     .Drame-big{
       background-image: url(./images/dream-bg.png);
       background-repeat: no-repeat; 
       background-position:right 78%;
     }
+        
+    /* ==== Dream Scetion Starts ==== */
 
+    /* ===== Experience Section Starts ===== */
+    .Experince-area{
+   background-image: url(./images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left bottom;
 
-     /* ==== Dream Scetion Starts ==== */
+    }
+    .Experince-area h1{
+      font-size: 50px;
+    }
+    
+   .Exper-half{
+     width: 45%;
+     box-shadow: 10px 10px 40px #ddd;
+     margin-left: 3%;
+     margin-right: 3%;
+     padding: 20px;
+     border-radius: 10px;
+     
+   }
+   .Exper-half h1{
+    font-size: 40px;
+   }
+
+  .Exper-half h3{
+   color: orange;
+     
+   }
+   #FullStack{
+     border-left: 7px solid;
+     border-image: linear-gradient( to bottom,salmon,orange);
+     border-image-slice: 1;
+    } 
+
+    #WebDeveloper{
+      border-left: 7px solid;
+      border-image: linear-gradient(to top,blue,cyan);
+      border-image-slice: 1;
+     }
+  
+   
+
+    /* ===== Experience Section Starts ===== */
+
+    /* ===== footer Section Starts ===== */
+   
+    footer{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+     /* ===== footer Section Starts ===== */
 
